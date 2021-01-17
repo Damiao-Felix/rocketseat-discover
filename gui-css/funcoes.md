@@ -10,7 +10,7 @@
 
 {
     color: rgb(255, 0, 100);
-    widht: calc(100% - 10px);
+    width: calc(100% - 10px);
 }
 
 ```
