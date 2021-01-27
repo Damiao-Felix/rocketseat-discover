@@ -1,0 +1,46 @@
+# Resource
+
+* URI
+    * Conceito
+        - Uniform Resource identifer
+            * Identificar um Recurso
+            * Nome ou Localização
+            * Exemplo
+                * Você é um Recurso
+                * Seu nome
+                * Sua localização
+    * Resource
+        * O alvo do pedido
+        * Qualquer coisa identificável / Entidade
+            * Digital
+                * Email -----> mailto:email@dominio.com
+            * Abstrata
+                * Sessão
+                * Autenticação
+            * Física
+                * Produtos
+                * Usuários
+            * Se podemos identificar, nomear, endereçar ou manipular, estamos falando de um recurso.
+    * Locator
+        * URL
+            * Uniform Resource Locator
+            * Componentes
+                * Obrigatórios
+                    * Protocolo
+                    * Domínio
+                * Opcionais
+                    * Subdomínio
+                    * Path
+                    * Parametros
+                    * Porta
+                    * Âncora
+            * Exemplos
+                * https://www.rocketseat.com.br/blog
+                * https://www.youtube.com/watch?v=vpYct2npKD8
+                * http://127.0.0.1:3333/index.html#algumlugar
+    * Name
+        * URN
+            * Uniform Resource Name
+            * Exemplos
+                * urn:isbn:0451450523
+                * urn:oasis:names:specification:docbook:dtd:xml:4.1.2
