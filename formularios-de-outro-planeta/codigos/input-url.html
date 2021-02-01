@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component d input de url</title>
+</head>
+<body>
+    <!-- 
+        <input type="url">
+
+        - Espera que o usuário digite uma url
+        - Irá validadr se o valor digitadop é uma url
+
+        # Atributos
+
+        - placeholder
+        - readonly /disabled
+        - value
+
+        - required
+
+        - minlength / maxlength
+            * o mínimo e/ou máximo valor que o campor irá conter
+
+        - size
+            * valor numérico indicado quantos caracteres esse campo deveria conter, modificando o tamanho do campo para o usuário
+
+        - pattern
+            * Uso de expressão regular para validar o campo
+
+     -->
+     <form action="">
+         <input type="url"
+         placeholder="https://example.com"
+         pattern=".*\.com\.br.*"
+         title="Somente dompinios .com.br serão aceitos"
+         required
+         >
+         <button type="submit">Enviar</button>
+     </form>
+</body>
+</html>

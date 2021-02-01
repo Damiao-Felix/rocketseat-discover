@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input checkbox</title>
+</head>
+<body>
+    <!-- 
+        <input type="checkbox"/>
+
+        - Caixas que podem ser marcadas
+        - Selecione um valor para ser enviado
+        - Se não selecionado, não será enviado nenhum dado
+
+        ATRIBUTOS
+        - globais
+        - value
+            * valor que aquele campo contém
+            * se não presente, o valor padrão é 'on'
+        - checked
+            * para deixar o campo marcado por padrão
+     -->
+     <fieldset>
+         <legend>Choose your interest</legend>
+         <div>
+             <input type="checkbox" name="interest" id="coding">
+             <label for="coding">Coding</label>
+         </div>
+         <div>
+            <input type="checkbox" name="interest" id="music">
+            <label for="music">Music</label>
+        </div>         
+     </fieldset>
+</body>
+</html>
