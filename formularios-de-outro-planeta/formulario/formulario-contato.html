@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contato</title>
+    <style>
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        input, textarea {
+            margin-bottom: 8px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+        <form action="">
+            <fieldset>
+                <legend>Contato</legend>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" placeholder="Digite seu nome">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite seu email">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" cols="20" rows="10" placeholder="Digite sua mensagem"></textarea>
+        
+                    <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+</body>
+</html>
